@@ -232,6 +232,7 @@ function fieldTreeFromAST<T extends SelectionNode>(
           const newTreeRoot: ResolveTree = {
             name,
             alias,
+            // @ts-ignore
             args,
             fieldsByTypeName: isCompositeType(fieldGqlType)
               ? {

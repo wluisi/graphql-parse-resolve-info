@@ -29,15 +29,15 @@
   },
   "homepage": "https://github.com/graphile/graphile-engine/tree/master/packages/graphql-parse-resolve-info",
   "peerDependencies": {
-    "graphql": ">=0.9 <0.14 || ^14.0.2 || ^15.4.0"
+    "graphql": ">=0.9 <0.14 || ^14.0.2 || ^15.4.0 || ^16.6.0"
   },
   "devDependencies": {
     "@types/debug": "^4.1.4",
-    "@types/jest": "25.x",
+    "@types/jest": "26.x",
     "@types/node": "^14.6.4",
     "eslint_d": "^9.1.2",
-    "jest": "25.x",
-    "ts-jest": "25.x",
+    "jest": "26.x",
+    "ts-jest": "26.x",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.2"
   },
